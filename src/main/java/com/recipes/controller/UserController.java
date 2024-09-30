@@ -32,7 +32,7 @@ import com.recipes.services.userService;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173/","https://food-recipe-frontend-3w8a.onrender.com/"})
 @RestController
 @RequestMapping("/users")
 public class UserController {
