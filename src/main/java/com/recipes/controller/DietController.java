@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.recipes.dtos.DietDto;
 import com.recipes.services.DietService;
 
-@CrossOrigin("http://localhost:5173/")
+@CrossOrigin(origins = {"http://localhost:5173/","https://food-recipe-frontend-3w8a.onrender.com/"})
 @RequestMapping("/diets")
 @RestController
 public class DietController {
