@@ -12,7 +12,7 @@ import com.recipes.dtos.CourseDto;
 import com.recipes.dtos.CuisineDto;
 import com.recipes.services.CourseService;
 
-@CrossOrigin("http://localhost:5173/")
+@CrossOrigin(origins = {"http://localhost:5173/","https://food-recipe-frontend-3w8a.onrender.com/"})
 @RestController
 @RequestMapping("/courses")
 public class CourseController {
