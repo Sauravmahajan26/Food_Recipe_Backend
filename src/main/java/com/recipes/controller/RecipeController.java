@@ -23,7 +23,7 @@ import com.recipes.services.RecipeService;
 
 import ch.qos.logback.core.pattern.util.RegularEscapeUtil;
 
-@CrossOrigin("http://localhost:5173/")
+@CrossOrigin(origins = {"http://localhost:5173/","https://food-recipe-frontend-3w8a.onrender.com/"})
 @RestController
 @RequestMapping("/recipes")
 public class RecipeController {
